@@ -25,8 +25,15 @@ Cung cấp hướng dẫn chuyên gia BA để thực thi lệnh `/preview`, sin
 - `docs/{feature}/preview.html`
 
 ## Workflow thực hiện
-1. Tạo 01 trang HTML tổng hợp gom toàn bộ: Brainstorm, SRS, Diagrams, Wireframe, Stories, Test Cases.
-2. Có thanh điều hướng bên trái (Sidebar) giúp stakeholder xem toàn bộ hồ sơ tính năng chỉ với 1 click.
+1. **Kết xuất trực quan toàn bộ sơ đồ**:
+   - Chạy lệnh `python3 scripts/render_diagrams.py docs/{feature}/` để tự động biến các khối Mermaid thô thành bản vẽ visual HTML/SVG chuẩn `diagram-design`.
+2. **Tổng hợp dữ liệu**:
+   - Gom toàn bộ hồ sơ tính năng: Brainstorm, SRS, Wireframe, Stories, Test Cases, và thư mục `diagrams/` vừa kết xuất.
+3. **Tạo trang HTML tổng hợp**:
+   - Nhúng trực tiếp bản vẽ visual SVG/HTML vào mục Sơ đồ kiến trúc / Luồng dữ liệu (có kèm nút xem Fullscreen hoặc tải file SVG vector).
+   - Có thanh điều hướng bên trái (Sidebar) giúp stakeholder xem toàn bộ hồ sơ tính năng chỉ với 1 click.
+4. **Ghi file**:
+   - Lưu vào `docs/{feature}/preview.html`.
 
 ## Tiêu chí Nghiệm thu (Quality Checklist)
 - [ ] Sử dụng ngôn ngữ tiếng Việt chuyên nghiệp, đúng thuật ngữ IT BA.

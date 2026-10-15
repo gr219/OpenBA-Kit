@@ -1,4 +1,5 @@
 /test
 /test/**
-/scripts
 /scripts/**
+!/scripts/render_diagrams.py
+.DS_Store
