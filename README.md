@@ -1,24 +1,26 @@
-# BA-Kit Open — Trọn bộ 55 AI Skills cho IT Business Analyst & Product Owner
+# BA-Kit Open — 55 AI Skills for IT Business Analysts & Product Owners
 
-Bộ kỹ năng mở rộng biến mọi AI Coding Agent (Claude Code, Antigravity, Codex, Hermes...) thành trợ lý Business Analyst chuyên nghiệp, tự động hóa toàn bộ quy trình tài liệu từ ý tưởng thô đến bàn giao kỹ thuật.
+<p align="center"><b>English</b> | <a href="README_VI.md">Tiếng Việt</a></p>
+
+An extension skill pack that turns any AI coding agent (Claude Code, Antigravity, Codex, Hermes...) into a professional Business Analyst assistant, automating the entire documentation process from a rough idea to technical handoff.
 
 ---
 
-## 📁 Cấu trúc Thư mục Dự án
+## 📁 Project Structure
 
 ```
 ba-kit-open/
-├── skills/          # 55 AI Skills chuẩn Agent Skill (.claude/skills hoặc .hermes/skills)
-│   ├── brainstorm/  # Làm rõ nghiệp vụ thô
-│   ├── srs/         # Đặc tả kỹ thuật IEEE 830
-│   ├── sequence/    # Sơ đồ tuần tự Mermaid
-│   ├── erd/         # Sơ đồ quan hệ thực thể
-│   ├── wireframe-html/ # Wireframe HTML tương tác
-│   ├── userstory/   # Backlog User Story chuẩn INVEST
-│   ├── test-cases/  # Test case chi tiết
-│   ├── cr/          # Xử lý Change Request & Impact Analysis
-│   └── ... (đủ 55 skills)
-├── rules/           # 19 Quy ước viết tài liệu & mã hóa chuẩn BA
+├── skills/          # 55 AI skills in Agent Skill format (.claude/skills or .hermes/skills)
+│   ├── brainstorm/  # Clarify raw business requirements
+│   ├── srs/         # IEEE 830 software requirements specification
+│   ├── sequence/    # Mermaid sequence diagrams
+│   ├── erd/         # Entity-relationship diagrams
+│   ├── wireframe-html/ # Interactive HTML wireframes
+│   ├── userstory/   # INVEST-compliant user story backlog
+│   ├── test-cases/  # Detailed test cases
+│   ├── cr/          # Change requests & impact analysis
+│   └── ... (all 55 skills)
+├── rules/           # 19 BA documentation & coding conventions
 │   ├── 01-fr-naming-convention.md
 │   ├── 02-br-naming-convention.md
 │   ├── 03-err-naming-convention.md
@@ -38,7 +40,7 @@ ba-kit-open/
 │   ├── 17-actor-role-definition.md
 │   ├── 18-knowledge-graph-metadata.md
 │   └── 19-document-versioning-rules.md
-└── _templates/      # 48 Biểu mẫu tài liệu chuẩn
+└── _templates/      # 48 standard document templates
     ├── 01-prd.md
     ├── 02-roadmap.md
     ├── 04-brainstorm.md
@@ -53,34 +55,34 @@ ba-kit-open/
     ├── 43-test-cases.md
     ├── 45-gap-analysis.md
     ├── 47-change-request.md
-    └── ... (đủ 48 templates)
+    └── ... (all 48 templates)
 ```
 
 ---
 
-## ⚡ 9 Giai đoạn & Toàn bộ 55 Lệnh Skills
+## ⚡ 9 Phases & All 55 Skill Commands
 
-| Giai đoạn | Số lượng | Danh sách Lệnh `/skill` |
+| Phase | Count | `/skill` Commands |
 | :--- | :---: | :--- |
-| **1. Lập kế hoạch sản phẩm** | 3 | `/prd`, `/roadmap`, `/discover` |
-| **2. Thu thập & Đặc tả yêu cầu** | 7 | `/brainstorm`, `/urd`, `/brd`, `/prd-epic`, `/srs`, `/reverse-doc`, `/code-to-srs` |
-| **3. Sơ đồ nghiệp vụ & Dữ liệu** | 11 | `/sequence`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/d2-architect`, `/dbdiagram`, `/usecase-diagram` |
-| **4. Use case & User story** | 3 | `/usecase`, `/userstory`, `/ac` |
-| **5. Thiết kế màn hình & Prototype** | 6 | `/user-flow`, `/wireframe-ascii`, `/wireframe-html`, `/prototype-html`, `/prototype-next`, `/figma` |
-| **6. Tích hợp API** | 7 | `/api-assess`, `/api-doc`, `/api-design`, `/api-map`, `/api-checklist`, `/api-test`, `/api-readiness` |
-| **7. Kiểm thử (QA/QC)** | 3 | `/test-checklist`, `/test-cases`, `/playwright-gen` |
-| **8. Kiểm soát chất lượng & Thay đổi** | 6 | `/gap`, `/doc-drift`, `/ask`, `/cr`, `/dashboard`, `/kg` |
-| **9. Bàn giao & Vận hành** | 9 | `/jira`, `/confluence`, `/export`, `/preview`, `/reverse-preview`, `/userguide`, `/meet`, `/update-overview`, `/delegate` |
+| **1. Product Planning** | 3 | `/prd`, `/roadmap`, `/discover` |
+| **2. Requirements Gathering & Specification** | 7 | `/brainstorm`, `/urd`, `/brd`, `/prd-epic`, `/srs`, `/reverse-doc`, `/code-to-srs` |
+| **3. Business & Data Diagrams** | 11 | `/sequence`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/d2-architect`, `/dbdiagram`, `/usecase-diagram` |
+| **4. Use Cases & User Stories** | 3 | `/usecase`, `/userstory`, `/ac` |
+| **5. Screen Design & Prototyping** | 6 | `/user-flow`, `/wireframe-ascii`, `/wireframe-html`, `/prototype-html`, `/prototype-next`, `/figma` |
+| **6. API Integration** | 7 | `/api-assess`, `/api-doc`, `/api-design`, `/api-map`, `/api-checklist`, `/api-test`, `/api-readiness` |
+| **7. Testing (QA/QC)** | 3 | `/test-checklist`, `/test-cases`, `/playwright-gen` |
+| **8. Quality & Change Control** | 6 | `/gap`, `/doc-drift`, `/ask`, `/cr`, `/dashboard`, `/kg` |
+| **9. Handoff & Operations** | 9 | `/jira`, `/confluence`, `/export`, `/preview`, `/reverse-preview`, `/userguide`, `/meet`, `/update-overview`, `/delegate` |
 
 ---
 
-## 🚀 Luồng Xương sống Cốt lõi (Core Workflow)
+## 🚀 Core Workflow
 
-Một ngày làm việc mẫu của BA với Core Skills:
-1. `09:00` `/brainstorm`: Phỏng vấn làm rõ ý tưởng thô và chốt scope.
-2. `09:40` `/srs`: Sinh đặc tả kỹ thuật IEEE 830 (FR, BR, ERR, NFR).
-3. `10:30` `/sequence` + `/erd`: Vẽ sơ đồ luồng tương tác và mô hình dữ liệu.
-4. `11:00` `/wireframe-html`: Dựng giao diện nguyên khối xem trực tiếp trên trình duyệt.
-5. `14:00` `/userstory` + `/ac`: Bóc tách backlog chuẩn INVEST và Acceptance Criteria Gherkin.
-6. `16:00` `/test-cases`: Sinh test cases kiểm thử bám sát AC và Error Matrix.
-7. `Hôm sau` `/cr`: Tiếp nhận thay đổi của khách hàng, phân tích tác động và đồng bộ tài liệu.
+A typical BA workday with the core skills:
+1. `09:00` `/brainstorm`: Interview to clarify the raw idea and lock down scope.
+2. `09:40` `/srs`: Generate an IEEE 830 specification (FR, BR, ERR, NFR).
+3. `10:30` `/sequence` + `/erd`: Draw interaction flow diagrams and the data model.
+4. `11:00` `/wireframe-html`: Build a self-contained UI you can view directly in the browser.
+5. `14:00` `/userstory` + `/ac`: Break down an INVEST-compliant backlog with Gherkin acceptance criteria.
+6. `16:00` `/test-cases`: Generate test cases traced to the ACs and the error matrix.
+7. `Next day` `/cr`: Take in client changes, analyze impact, and keep documents in sync.
