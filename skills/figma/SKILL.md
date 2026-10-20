@@ -1,6 +1,6 @@
 ---
 name: figma
-description: Vẽ màn hình thật lên Figma, bám design system
+description: "Vẽ màn hình thật lên Figma, bám design system"
 metadata:
   phase: 05-screen-design
   category: business-analysis

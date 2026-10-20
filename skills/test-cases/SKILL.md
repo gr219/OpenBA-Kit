@@ -1,6 +1,6 @@
 ---
 name: test-cases
-description: Test case chi tiết chạy được, sinh từ checklist
+description: "Test case chi tiết chạy được, sinh từ checklist"
 metadata:
   phase: 07-testing
   category: business-analysis

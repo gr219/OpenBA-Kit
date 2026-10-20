@@ -1,6 +1,6 @@
 ---
 name: api-assess
-description: Đánh giá đối tác API, cân nhắc tự xây hay mua
+description: "Đánh giá đối tác API, cân nhắc tự xây hay mua"
 metadata:
   phase: 06-api-integration
   category: business-analysis

@@ -1,6 +1,6 @@
 ---
 name: usecase-diagram
-description: Sơ đồ use case: actor và phạm vi hệ thống
+description: "Sơ đồ use case: actor và phạm vi hệ thống"
 metadata:
   phase: 03-diagrams
   category: business-analysis

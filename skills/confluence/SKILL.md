@@ -1,6 +1,6 @@
 ---
 name: confluence
-description: Đồng bộ 2 chiều tài liệu với Confluence
+description: "Đồng bộ 2 chiều tài liệu với Confluence"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

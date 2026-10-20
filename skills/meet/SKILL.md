@@ -1,6 +1,6 @@
 ---
 name: meet
-description: Biến ghi chú họp thành biên bản có quyết định và việc cần làm
+description: "Biến ghi chú họp thành biên bản có quyết định và việc cần làm"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

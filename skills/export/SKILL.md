@@ -1,6 +1,6 @@
 ---
 name: export
-description: Xuất gói tài liệu PDF / Word / HTML cho stakeholder
+description: "Xuất gói tài liệu PDF / Word / HTML cho stakeholder"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

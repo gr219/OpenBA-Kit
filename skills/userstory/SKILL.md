@@ -1,6 +1,6 @@
 ---
 name: userstory
-description: Sinh user story sẵn sàng đưa vào backlog
+description: "Sinh user story sẵn sàng đưa vào backlog"
 metadata:
   phase: 04-usecase-story
   category: business-analysis

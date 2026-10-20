@@ -1,6 +1,6 @@
 ---
 name: activity
-description: Sơ đồ hoạt động có nhánh quyết định
+description: "Sơ đồ hoạt động có nhánh quyết định"
 metadata:
   phase: 03-diagrams
   category: business-analysis

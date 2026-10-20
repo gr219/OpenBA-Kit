@@ -1,6 +1,6 @@
 ---
 name: usecase
-description: Use case chi tiết chuẩn Cockburn: actor, điều kiện, luồng chính, ngoại lệ
+description: "Use case chi tiết chuẩn Cockburn: actor, điều kiện, luồng chính, ngoại lệ"
 metadata:
   phase: 04-usecase-story
   category: business-analysis

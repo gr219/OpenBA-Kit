@@ -1,6 +1,6 @@
 ---
 name: delegate
-description: Chia việc sang AI khác để san tải, lấy ý kiến thứ hai
+description: "Chia việc sang AI khác để san tải, lấy ý kiến thứ hai"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

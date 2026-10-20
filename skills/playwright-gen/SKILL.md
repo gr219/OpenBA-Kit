@@ -1,6 +1,6 @@
 ---
 name: playwright-gen
-description: Sinh script Playwright tự động chạy test trên trình duyệt
+description: "Sinh script Playwright tự động chạy test trên trình duyệt"
 metadata:
   phase: 07-testing
   category: business-analysis

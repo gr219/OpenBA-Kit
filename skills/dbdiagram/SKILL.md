@@ -1,6 +1,6 @@
 ---
 name: dbdiagram
-description: Schema database DBML, import dbdiagram.io, xuất SQL
+description: "Schema database DBML, import dbdiagram.io, xuất SQL"
 metadata:
   phase: 03-diagrams
   category: business-analysis

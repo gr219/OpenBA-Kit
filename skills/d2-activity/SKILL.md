@@ -1,6 +1,6 @@
 ---
 name: d2-activity
-description: Sơ đồ hoạt động bản đẹp, đứng riêng (D2)
+description: "Sơ đồ hoạt động bản đẹp, đứng riêng (D2)"
 metadata:
   phase: 03-diagrams
   category: business-analysis

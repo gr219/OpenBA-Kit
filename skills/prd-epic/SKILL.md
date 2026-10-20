@@ -1,6 +1,6 @@
 ---
 name: prd-epic
-description: Đặc tả 1 tính năng: capability P0/P1/P2, kế hoạch release
+description: "Đặc tả 1 tính năng: capability P0/P1/P2, kế hoạch release"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

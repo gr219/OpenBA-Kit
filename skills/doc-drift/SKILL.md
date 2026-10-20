@@ -1,6 +1,6 @@
 ---
 name: doc-drift
-description: Đối chiếu code dev với tài liệu: chỗ nào lệch, chỗ nào chưa làm
+description: "Đối chiếu code dev với tài liệu: chỗ nào lệch, chỗ nào chưa làm"
 metadata:
   phase: 08-quality-change
   category: business-analysis

@@ -1,6 +1,6 @@
 ---
 name: brainstorm
-description: Ghi ý tưởng thô rồi phỏng vấn làm rõ trước khi viết tài liệu
+description: "Ghi ý tưởng thô rồi phỏng vấn làm rõ trước khi viết tài liệu"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

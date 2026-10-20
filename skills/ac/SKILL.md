@@ -1,6 +1,6 @@
 ---
 name: ac
-description: Acceptance criteria dạng Given / When / Then cho từng story
+description: "Acceptance criteria dạng Given / When / Then cho từng story"
 metadata:
   phase: 04-usecase-story
   category: business-analysis

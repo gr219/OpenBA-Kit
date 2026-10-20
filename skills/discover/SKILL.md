@@ -1,6 +1,6 @@
 ---
 name: discover
-description: Điều tra ý tưởng còn phân vân: nhu cầu, đối thủ — nên làm hay bỏ
+description: "Điều tra ý tưởng còn phân vân: nhu cầu, đối thủ — nên làm hay bỏ"
 metadata:
   phase: 01-planning
   category: business-analysis

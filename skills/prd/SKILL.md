@@ -1,6 +1,6 @@
 ---
 name: prd
-description: PRD toàn sản phẩm: tầm nhìn, người dùng, bóc tách danh sách tính năng
+description: "PRD toàn sản phẩm: tầm nhìn, người dùng, bóc tách danh sách tính năng"
 metadata:
   phase: 01-planning
   category: business-analysis

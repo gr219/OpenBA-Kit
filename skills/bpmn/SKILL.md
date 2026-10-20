@@ -1,6 +1,6 @@
 ---
 name: bpmn
-description: Quy trình chuẩn BPMN 2.0, import được vào Camunda / Bizagi
+description: "Quy trình chuẩn BPMN 2.0, import được vào Camunda / Bizagi"
 metadata:
   phase: 03-diagrams
   category: business-analysis

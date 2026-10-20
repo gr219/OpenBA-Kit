@@ -1,6 +1,6 @@
 ---
 name: api-doc
-description: Đọc tài liệu API đối tác thành bản tóm tắt nghiệp vụ
+description: "Đọc tài liệu API đối tác thành bản tóm tắt nghiệp vụ"
 metadata:
   phase: 06-api-integration
   category: business-analysis

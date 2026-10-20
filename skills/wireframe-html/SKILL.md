@@ -1,6 +1,6 @@
 ---
 name: wireframe-html
-description: Wireframe HTML đen trắng, render element thật
+description: "Wireframe HTML đen trắng, render element thật"
 metadata:
   phase: 05-screen-design
   category: business-analysis

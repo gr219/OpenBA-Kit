@@ -1,6 +1,6 @@
 ---
 name: prototype-next
-description: Prototype Next.js chạy thật: điều hướng, lưu trạng thái, nhánh lỗi
+description: "Prototype Next.js chạy thật: điều hướng, lưu trạng thái, nhánh lỗi"
 metadata:
   phase: 05-screen-design
   category: business-analysis

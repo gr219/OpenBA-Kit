@@ -1,6 +1,6 @@
 ---
 name: render-diagrams
-description: Quét và chuyển đổi toàn bộ sơ đồ Mermaid trong tài liệu thành visual diagrams HTML + SVG chuẩn editorial
+description: "Quét và chuyển đổi toàn bộ sơ đồ Mermaid trong tài liệu thành visual diagrams HTML + SVG chuẩn editorial"
 metadata:
   phase: 03-diagrams
   category: business-analysis

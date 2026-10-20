@@ -1,6 +1,6 @@
 ---
 name: sequence
-description: Sơ đồ tuần tự: ai gọi ai, theo thứ tự nào
+description: "Sơ đồ tuần tự: ai gọi ai, theo thứ tự nào"
 metadata:
   phase: 03-diagrams
   category: business-analysis

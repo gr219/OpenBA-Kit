@@ -1,6 +1,6 @@
 ---
 name: kg
-description: Knowledge Graph của toàn bộ tài liệu, tra cứu liên kết
+description: "Knowledge Graph của toàn bộ tài liệu, tra cứu liên kết"
 metadata:
   phase: 08-quality-change
   category: business-analysis

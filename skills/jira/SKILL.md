@@ -1,6 +1,6 @@
 ---
 name: jira
-description: Đồng bộ 2 chiều backlog với Jira Cloud
+description: "Đồng bộ 2 chiều backlog với Jira Cloud"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

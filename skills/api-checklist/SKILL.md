@@ -1,6 +1,6 @@
 ---
 name: api-checklist
-description: Checklist cần test gì cho API
+description: "Checklist cần test gì cho API"
 metadata:
   phase: 06-api-integration
   category: business-analysis

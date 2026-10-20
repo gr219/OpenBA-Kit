@@ -1,6 +1,6 @@
 ---
 name: api-readiness
-description: Cổng kiểm tra trước khi lên production
+description: "Cổng kiểm tra trước khi lên production"
 metadata:
   phase: 06-api-integration
   category: business-analysis

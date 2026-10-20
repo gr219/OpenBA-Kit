@@ -1,6 +1,6 @@
 ---
 name: reverse-preview
-description: Trang HTML xem bộ tài liệu tái lập, kèm mức độ tin cậy từng mục
+description: "Trang HTML xem bộ tài liệu tái lập, kèm mức độ tin cậy từng mục"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

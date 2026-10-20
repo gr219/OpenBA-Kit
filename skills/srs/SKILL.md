@@ -1,6 +1,6 @@
 ---
 name: srs
-description: Đặc tả kỹ thuật: FR / NFR / business rule / ma trận lỗi
+description: "Đặc tả kỹ thuật: FR / NFR / business rule / ma trận lỗi"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

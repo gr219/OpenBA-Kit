@@ -1,6 +1,6 @@
 ---
 name: api-test
-description: Test API kiểu Postman, sinh collection Bruno chạy được
+description: "Test API kiểu Postman, sinh collection Bruno chạy được"
 metadata:
   phase: 06-api-integration
   category: business-analysis

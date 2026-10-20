@@ -1,6 +1,6 @@
 ---
 name: gap
-description: Soi tính năng còn thiếu luồng nghiệp vụ nào
+description: "Soi tính năng còn thiếu luồng nghiệp vụ nào"
 metadata:
   phase: 08-quality-change
   category: business-analysis

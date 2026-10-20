@@ -1,6 +1,6 @@
 ---
 name: state
-description: Sơ đồ trạng thái cho một đối tượng (đơn hàng, tài khoản)
+description: "Sơ đồ trạng thái cho một đối tượng (đơn hàng, tài khoản)"
 metadata:
   phase: 03-diagrams
   category: business-analysis

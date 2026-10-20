@@ -1,6 +1,6 @@
 ---
 name: test-checklist
-description: Outline các kịch bản cần test để review trước
+description: "Outline các kịch bản cần test để review trước"
 metadata:
   phase: 07-testing
   category: business-analysis

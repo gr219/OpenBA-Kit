@@ -1,6 +1,6 @@
 ---
 name: urd
-description: Tài liệu yêu cầu người dùng: persona, nhu cầu, hành trình
+description: "Tài liệu yêu cầu người dùng: persona, nhu cầu, hành trình"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

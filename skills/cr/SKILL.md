@@ -1,6 +1,6 @@
 ---
 name: cr
-description: Phân tích tác động thay đổi rồi sửa tài liệu liên quan
+description: "Phân tích tác động thay đổi rồi sửa tài liệu liên quan"
 metadata:
   phase: 08-quality-change
   category: business-analysis

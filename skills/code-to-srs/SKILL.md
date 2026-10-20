@@ -1,6 +1,6 @@
 ---
 name: code-to-srs
-description: Đọc source code hệ thống cũ, dựng lại bộ SRS kèm trích dẫn dòng code
+description: "Đọc source code hệ thống cũ, dựng lại bộ SRS kèm trích dẫn dòng code"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

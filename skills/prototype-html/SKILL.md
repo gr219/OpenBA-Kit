@@ -1,6 +1,6 @@
 ---
 name: prototype-html
-description: Prototype bấm được như app thật, lưu trạng thái
+description: "Prototype bấm được như app thật, lưu trạng thái"
 metadata:
   phase: 05-screen-design
   category: business-analysis

@@ -1,6 +1,6 @@
 ---
 name: brd
-description: Tài liệu yêu cầu nghiệp vụ: mục tiêu, phạm vi, rủi ro, ROI
+description: "Tài liệu yêu cầu nghiệp vụ: mục tiêu, phạm vi, rủi ro, ROI"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

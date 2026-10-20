@@ -1,6 +1,6 @@
 ---
 name: user-flow
-description: Phân tích luồng người dùng, phủ happy / error / edge case
+description: "Phân tích luồng người dùng, phủ happy / error / edge case"
 metadata:
   phase: 05-screen-design
   category: business-analysis

@@ -1,6 +1,6 @@
 ---
 name: roadmap
-description: Xếp ưu tiên tính năng, chia đợt Now / Next / Later
+description: "Xếp ưu tiên tính năng, chia đợt Now / Next / Later"
 metadata:
   phase: 01-planning
   category: business-analysis

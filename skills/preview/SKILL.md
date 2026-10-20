@@ -1,6 +1,6 @@
 ---
 name: preview
-description: Trang HTML xem toàn bộ tài liệu của một tính năng
+description: "Trang HTML xem toàn bộ tài liệu của một tính năng"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

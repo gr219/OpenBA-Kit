@@ -1,6 +1,6 @@
 ---
 name: wireframe-ascii
-description: Wireframe dạng ký tự, phác nhanh trong tài liệu
+description: "Wireframe dạng ký tự, phác nhanh trong tài liệu"
 metadata:
   phase: 05-screen-design
   category: business-analysis

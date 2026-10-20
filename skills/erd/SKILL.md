@@ -1,6 +1,6 @@
 ---
 name: erd
-description: Sơ đồ quan hệ dữ liệu (Mermaid)
+description: "Sơ đồ quan hệ dữ liệu (Mermaid)"
 metadata:
   phase: 03-diagrams
   category: business-analysis

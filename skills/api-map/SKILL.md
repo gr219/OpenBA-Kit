@@ -1,6 +1,6 @@
 ---
 name: api-map
-description: Mapping field 3 tầng: API, dữ liệu hệ thống, màn hình
+description: "Mapping field 3 tầng: API, dữ liệu hệ thống, màn hình"
 metadata:
   phase: 06-api-integration
   category: business-analysis

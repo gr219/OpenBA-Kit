@@ -1,6 +1,6 @@
 ---
 name: ask
-description: Hỏi và được giải thích nghiệp vụ đang chạy thế nào
+description: "Hỏi và được giải thích nghiệp vụ đang chạy thế nào"
 metadata:
   phase: 08-quality-change
   category: business-analysis

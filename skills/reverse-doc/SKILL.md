@@ -1,6 +1,6 @@
 ---
 name: reverse-doc
-description: Tái lập bộ tài liệu SRS từ file rời rạc (Word, PDF, ảnh chụp)
+description: "Tái lập bộ tài liệu SRS từ file rời rạc (Word, PDF, ảnh chụp)"
 metadata:
   phase: 02-elicit-spec
   category: business-analysis

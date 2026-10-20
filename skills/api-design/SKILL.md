@@ -1,6 +1,6 @@
 ---
 name: api-design
-description: Bản thiết kế tích hợp: các hệ thống phối hợp thế nào
+description: "Bản thiết kế tích hợp: các hệ thống phối hợp thế nào"
 metadata:
   phase: 06-api-integration
   category: business-analysis

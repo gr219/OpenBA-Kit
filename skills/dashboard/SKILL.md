@@ -1,6 +1,6 @@
 ---
 name: dashboard
-description: Dashboard tổng quan: tiến độ, độ phủ, rủi ro toàn dự án
+description: "Dashboard tổng quan: tiến độ, độ phủ, rủi ro toàn dự án"
 metadata:
   phase: 08-quality-change
   category: business-analysis

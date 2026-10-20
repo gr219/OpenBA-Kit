@@ -1,6 +1,6 @@
 ---
 name: d2-erd
-description: Sơ đồ quan hệ dữ liệu bản đẹp (D2)
+description: "Sơ đồ quan hệ dữ liệu bản đẹp (D2)"
 metadata:
   phase: 03-diagrams
   category: business-analysis

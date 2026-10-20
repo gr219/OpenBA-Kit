@@ -1,6 +1,6 @@
 ---
 name: update-overview
-description: Cập nhật tài liệu dùng chung của dự án
+description: "Cập nhật tài liệu dùng chung của dự án"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis

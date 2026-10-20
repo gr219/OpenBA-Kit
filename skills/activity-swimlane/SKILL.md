@@ -1,6 +1,6 @@
 ---
 name: activity-swimlane
-description: Sơ đồ hoạt động chia làn theo vai trò (PlantUML)
+description: "Sơ đồ hoạt động chia làn theo vai trò (PlantUML)"
 metadata:
   phase: 03-diagrams
   category: business-analysis

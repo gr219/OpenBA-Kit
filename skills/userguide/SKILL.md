@@ -1,6 +1,6 @@
 ---
 name: userguide
-description: Viết cẩm nang vận hành cho admin và chăm sóc khách hàng
+description: "Viết cẩm nang vận hành cho admin và chăm sóc khách hàng"
 metadata:
   phase: 09-handoff-ops
   category: business-analysis
