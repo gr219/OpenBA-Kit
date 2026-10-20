@@ -1,4 +1,4 @@
-# BA-Kit Open — Trọn bộ 57 AI Skills cho IT Business Analyst & Product Owner
+# BA-Kit Open — Trọn bộ 56 AI Skills cho IT Business Analyst & Product Owner
 
 [![Tiếng Việt](https://img.shields.io/badge/Lang-Ti%E1%BA%BFng%20Vi%E1%BB%87t-red.svg)](README_VI.md)
 [![English](https://img.shields.io/badge/English-README-blue.svg)](README.md)
@@ -12,10 +12,10 @@ Bộ kỹ năng mở rộng (Agent Skills) chuẩn hóa, biến mọi AI Coding 
 
 ## 🌟 Điểm nổi bật & Tính năng mới
 
-- **57 AI Skills chuyên sâu**: Bao trọn 9 giai đoạn phát triển phần mềm theo chuẩn quốc tế (IEEE 830, Cockburn Use Cases, INVEST Stories, Gherkin AC).
+- **56 AI Skills chuyên sâu**: Bao trọn 9 giai đoạn phát triển phần mềm theo chuẩn quốc tế (IEEE 830, Cockburn Use Cases, INVEST Stories, Gherkin AC).
 - **Tích hợp Diagram Design (v2.6)**: Tự động chuyển đổi sơ đồ text Mermaid khô cứng thành **bản vẽ vector HTML/SVG chuẩn Editorial** (lưới 4px, font Instrument Serif + Geist, không lo vỡ hình hay mất công convert thủ công).
 - **19 Bộ Quy chuẩn Bắt buộc (Rules)**: Loại bỏ các mô tả mơ hồ, tự động chuẩn hóa quy ước đặt mã `FR-`, `BR-`, `ERR-`, `UC-`, `US-`.
-- **48 Biểu mẫu Thực chiến (Templates)**: Sẵn sàng đưa vào dự án thực tế ngay lập tức.
+- **47 Biểu mẫu Thực chiến (Templates)**: Sẵn sàng đưa vào dự án thực tế ngay lập tức.
 - **Preview & Handoff một chạm**: Tạo file `preview.html` tổng hợp kèm thanh điều hướng và sơ đồ tương tác cho stakeholder.
 
 ---
@@ -24,7 +24,7 @@ Bộ kỹ năng mở rộng (Agent Skills) chuẩn hóa, biến mọi AI Coding 
 
 ```
 ba-kit-open/
-├── skills/              # 57 AI Skills chuẩn Agent Skill (.claude/skills hoặc .hermes/skills)
+├── skills/              # 56 AI Skills chuẩn Agent Skill (.claude/skills hoặc .hermes/skills)
 │   ├── brainstorm/      # Làm rõ nghiệp vụ thô
 │   ├── srs/             # Đặc tả kỹ thuật IEEE 830
 │   ├── sequence/        # Sơ đồ tuần tự Mermaid
@@ -36,7 +36,7 @@ ba-kit-open/
 │   ├── test-cases/      # Test cases chi tiết
 │   ├── preview/         # Trang HTML tổng duyệt hồ sơ tính năng
 │   ├── cr/              # Xử lý Change Request & Phân tích tác động
-│   └── ... (đủ 57 skills)
+│   └── ... (đủ 56 skills)
 ├── rules/               # 19 Quy ước viết tài liệu & mã hóa chuẩn BA
 │   ├── 01-fr-naming-convention.md
 │   ├── 02-br-naming-convention.md
@@ -57,7 +57,7 @@ ba-kit-open/
 │   ├── 17-actor-role-definition.md
 │   ├── 18-knowledge-graph-metadata.md
 │   └── 19-document-versioning-rules.md
-├── _templates/          # 48 Biểu mẫu tài liệu chuẩn
+├── _templates/          # 47 Biểu mẫu tài liệu chuẩn
 │   ├── 01-prd.md
 │   ├── 02-roadmap.md
 │   ├── 04-brainstorm.md
@@ -72,20 +72,20 @@ ba-kit-open/
 │   ├── 43-test-cases.md
 │   ├── 45-gap-analysis.md
 │   ├── 47-change-request.md
-│   └── ... (đủ 48 templates)
+│   └── ... (đủ 47 templates)
 └── scripts/             # Công cụ tiện ích
     └── render_diagrams.py # Script quét và xuất bản HTML/SVG tự động
 ```
 
 ---
 
-## ⚡ 9 Giai đoạn & Toàn bộ 57 Lệnh Skills
+## ⚡ 9 Giai đoạn & Toàn bộ 56 Lệnh Skills
 
 | Giai đoạn | Số lượng | Danh sách Lệnh `/skill` |
 | :--- | :---: | :--- |
 | **1. Lập kế hoạch sản phẩm** | 3 | `/prd`, `/roadmap`, `/discover` |
 | **2. Thu thập & Đặc tả yêu cầu** | 7 | `/brainstorm`, `/urd`, `/brd`, `/prd-epic`, `/srs`, `/reverse-doc`, `/code-to-srs` |
-| **3. Sơ đồ nghiệp vụ & Dữ liệu** | 13 | `/sequence`, `/render-diagrams`, `/diagram-design`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/d2-architect`, `/dbdiagram`, `/usecase-diagram` |
+| **3. Sơ đồ nghiệp vụ & Dữ liệu** | 12 | `/sequence`, `/render-diagrams`, `/diagram-design`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/dbdiagram`, `/usecase-diagram` |
 | **4. Use case & User story** | 3 | `/usecase`, `/userstory`, `/ac` |
 | **5. Thiết kế màn hình & Prototype** | 6 | `/user-flow`, `/wireframe-ascii`, `/wireframe-html`, `/prototype-html`, `/prototype-next`, `/figma` |
 | **6. Tích hợp API** | 7 | `/api-assess`, `/api-doc`, `/api-design`, `/api-map`, `/api-checklist`, `/api-test`, `/api-readiness` |

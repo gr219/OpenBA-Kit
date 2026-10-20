@@ -12,7 +12,13 @@ import subprocess
 import html
 from pathlib import Path
 
-SKILL_DIR = Path("/Users/phamminhson/ba-kit-open/skills/diagram-design")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+SKILL_DIR = REPO_ROOT / "skills" / "diagram-design"
+if not SKILL_DIR.exists():
+    for fallback in [Path.home() / ".claude" / "skills" / "diagram-design", Path.home() / ".hermes" / "skills" / "diagram-design"]:
+        if fallback.exists():
+            SKILL_DIR = fallback
+            break
 MERMAID_EXTRACT = SKILL_DIR / "scripts" / "mermaid_extract.py"
 EXPORT_SVG = SKILL_DIR / "scripts" / "export_svg.py"
 

@@ -1,4 +1,4 @@
-# BA-Kit Open — 57 AI Skills for IT Business Analysts & Product Owners
+# BA-Kit Open — 56 AI Skills for IT Business Analysts & Product Owners
 
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
 [![Tiếng Việt](https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-Ti%E1%BA%BFng%20Vi%E1%BB%87t-red.svg)](README_VI.md)
@@ -7,7 +7,7 @@
 
 > 🇻🇳 **Đọc bản tiếng Việt tại [README_VI.md](README_VI.md)**
 
-**BA-Kit Open** is an open-source suite of **57 specialized Agent Skills**, **19 strict requirements engineering rules**, and **48 production-ready templates**. It transforms any AI Coding Agent (**Claude Code, Antigravity, OpenAI Codex, Hermes Agent, Cursor, Windsurf**) into an elite Senior IT Business Analyst and Technical Product Owner.
+**BA-Kit Open** is an open-source suite of **56 specialized Agent Skills**, **19 strict requirements engineering rules**, and **47 production-ready templates**. It transforms any AI Coding Agent (**Claude Code, Antigravity, OpenAI Codex, Hermes Agent, Cursor, Windsurf**) into an elite Senior IT Business Analyst and Technical Product Owner.
 
 Automate the full software specification lifecycle: from vague brainstorms and discovery reports to IEEE 830 technical specifications, editorial-grade architecture diagrams, interactive HTML wireframes, INVEST backlogs, Gherkin acceptance criteria, and traceable test cases.
 
@@ -42,7 +42,7 @@ Raw Idea ──[ BA-Kit Open ]──> Verified Specs + Visual Diagrams ──> F
 
 ```
 ba-kit-open/
-├── skills/              # 57 AI Skills conforming to the Agent Skills standard
+├── skills/              # 56 AI Skills conforming to the Agent Skills standard
 │   ├── brainstorm/      # Socratic interviewing for vague requirements
 │   ├── srs/             # IEEE 830 technical specification generator
 │   ├── sequence/        # Interaction & message sequence modeling
@@ -55,7 +55,7 @@ ba-kit-open/
 │   ├── test-cases/      # Traceable test suites matching Error Matrix
 │   ├── preview/         # Unified HTML documentation viewer with live diagrams
 │   ├── cr/              # Change request & blast-radius impact analysis
-│   └── ... (57 total skills)
+│   └── ... (56 total skills)
 ├── rules/               # 19 Non-negotiable BA & Specification Rules
 │   ├── 01-fr-naming-convention.md
 │   ├── 02-br-naming-convention.md
@@ -67,27 +67,27 @@ ba-kit-open/
 │   ├── 10-api-contract-standards.md
 │   ├── 16-ambiguity-detection-rules.md
 │   └── ... (19 rules)
-├── _templates/          # 48 Standardized deliverables ready to ship
+├── _templates/          # 47 Standardized deliverables ready to ship
 │   ├── 01-prd.md
 │   ├── 08-srs.md
 │   ├── 15-sequence-diagram.md
 │   ├── 26-usecase-cockburn.md
 │   ├── 27-userstory.md
 │   ├── 31-wireframe-html.html
-│   └── ... (48 templates)
+│   └── ... (47 templates)
 └── scripts/
     └── render_diagrams.py # CLI tool to scan & render Markdown Mermaid diagrams
 ```
 
 ---
 
-## 🚀 The 57 Skills Across 9 SDLC Phases
+## 🚀 The 56 Skills Across 9 SDLC Phases
 
 | Phase | Count | Available `/slash` Commands |
 | :--- | :---: | :--- |
 | **1. Product Planning** | 3 | `/prd`, `/roadmap`, `/discover` |
 | **2. Requirements & Elicitation** | 7 | `/brainstorm`, `/urd`, `/brd`, `/prd-epic`, `/srs`, `/reverse-doc`, `/code-to-srs` |
-| **3. Business & Data Diagrams** | 13 | `/sequence`, `/render-diagrams`, `/diagram-design`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/d2-architect`, `/dbdiagram`, `/usecase-diagram` |
+| **3. Business & Data Diagrams** | 12 | `/sequence`, `/render-diagrams`, `/diagram-design`, `/activity`, `/activity-swimlane`, `/bpmn`, `/state`, `/erd`, `/d2-erd`, `/d2-activity`, `/dbdiagram`, `/usecase-diagram` |
 | **4. Use Cases & User Stories** | 3 | `/usecase`, `/userstory`, `/ac` |
 | **5. UI Prototyping & Flows** | 6 | `/user-flow`, `/wireframe-ascii`, `/wireframe-html`, `/prototype-html`, `/prototype-next`, `/figma` |
 | **6. API Integration** | 7 | `/api-assess`, `/api-doc`, `/api-design`, `/api-map`, `/api-checklist`, `/api-test`, `/api-readiness` |
